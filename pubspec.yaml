@@ -1,0 +1,85 @@
+name: smart_chat
+description: A new Flutter application.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  dart_style: ^2.0.1
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  shared_preferences: ^2.0.6
+  intl: ^0.17.0
+  equatable: ^2.0.2
+  dartz: ^0.10.0-nullsafety.2
+  cupertino_icons: ^1.0.3
+  get_it: ^7.1.3
+  flutter_hooks: ^0.17.0
+  flutter_slidable: ^0.6.0-nullsafety.0
+  injectable: ^1.4.1
+  another_flushbar: ^1.10.23
+  kt_dart: ^0.9.1
+  rxdart: ^0.27.1
+  provider: ^5.0.0
+  flutter_bloc: ^7.0.1
+  json_annotation: ^4.0.0-nullsafety.0
+  freezed_annotation: ^0.14.2
+  auto_route: ^2.2.0
+  uuid: ^3.0.4
+  image_picker: ^0.8.0+1
+  image_cropper: ^1.4.0
+  cloud_firestore: ^2.2.1
+  firebase_auth: ^1.3.0
+  google_sign_in: ^5.0.4
+  firebase_core: ^1.2.1
+  firebase_storage: ^8.1.1
+  cloud_functions: ^1.1.1
+  firebase_messaging: ^10.0.1
+  overlay_support: ^1.2.1
+  firebase_core_platform_interface: ^4.0.1
+  flutter_cache_manager: ^3.1.1
+  cached_network_image: ^3.0.0
+  bubble_box: ^0.3.0-nullsafety.0
+  numberpicker: ^2.1.1
+  fl_chart: ^0.36.1
+  animator: ^3.0.0
+  i18n_extension: ^4.1.0
+
+dev_dependencies:
+  auto_route_generator: ^2.1.0
+  bloc_test: ^8.0.2
+  build_runner: ^2.0.4
+  build: ^2.0.2
+  fake_cloud_firestore: ^1.1.1
+  firebase_auth_mocks: ^0.7.0
+  freezed: ^0.14.2
+  flutter_test:
+    sdk: flutter
+  google_sign_in_mocks: ^0.2.1
+  json_serializable: ^4.0.0-nullsafety.0
+  import_sorter: ^4.6.0
+  injectable_generator: ^1.4.1
+  logger: ^1.0.0
+  lint: ^1.5.3
+  mockito: ^5.0.9
+  mocktail: ^0.1.4
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  generate: true
+  assets:
+    - assets/images/
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true

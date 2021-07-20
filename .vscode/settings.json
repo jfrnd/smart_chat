@@ -1,0 +1,16 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/*.config.dart": true,
+        "**/*.freezed.dart": true,
+        "**/*.g.dart": true,
+        "android": false,
+        "generated_plugin_registrant.dart": false,
+        "router.gr.dart": true
+    },
+    "explorerExclude.backup": null,
+}

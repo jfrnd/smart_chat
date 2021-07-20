@@ -1,0 +1,17 @@
+include: package:lint/analysis_options.yaml
+
+analyzer:
+  errors:
+    missing_required_param: error
+    missing_return: error
+    must_be_immutable: error
+    sort_unnamed_constructors_first: ignore
+    constant_identifier_names: ignore
+    leading_newlines_in_multiline_strings: ignore
+    avoid_print: ignore
+    avoid_single_cascade_in_expression_statements: ignore
+    non_constant_identifier_names: ignore
+    sort_pub_dependencies: ignore
+    file_names: ignore
+    directives_ordering: ignore
+    prefer_constructors_over_static_methods: ignore
